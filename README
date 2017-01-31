@@ -1,0 +1,12 @@
+This is the git repo for the Hessian potential. Steps to install are:
+
+1) Put all files in the LAMMPS (version 17Nov16) src directory
+2) Compile LAMMPS
+
+Steps to use this potential are:
+1) Obtain the force constant Hessian matrix for your system
+2) Use pair_style neighlist_gen to generate a NEIGHLIST file
+3) Use write_fclist.m to map force constants onto that neighbor list
+4) Use pair_style hessian2 to run the potential
+
+See the example for aluminum in this directory
