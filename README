@@ -9,4 +9,4 @@ Steps to use this potential are:
 3) Use write_fclist.m to map force constants onto that neighbor list
 4) Use pair_style hessian2 to run the potential
 
-See the example for aluminum in this directory
+See the examples for silicon and aluminum in this directory
