@@ -16,7 +16,7 @@ pair_style hessian2 3
 pair_coeff * *  0  3 IILIST IJLIST EQUIL # inner cutoff, outer cutoff, hessian file, equilibrium positions
 
 # Initialize velocity, thermo settings, timestep and ensemble
-velocity	 all create 100 20101 rot yes mom yes
+velocity	 all create 50 20101 rot yes mom yes
 thermo  	 100
 thermo_style custom step pe #ke press vol temp
 fix 1 all nve
